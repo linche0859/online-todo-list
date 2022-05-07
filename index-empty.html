@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&family=Noto+Sans+TC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="min-h-screen bg-primary py-4 px-8 lg:bg-index">
+    <header class="mb-4 flex items-center lg:mb-10">
+      <div class="flex flex-grow items-center">
+        <img
+          src="./images/check-index.png"
+          alt="check"
+          class="mr-[2px] shrink-0"
+        />
+        <h1 class="font-baloo text-2xl font-bold leading-[37px]">
+          ONLINE TODO LIST
+        </h1>
+      </div>
+      <p class="hidden lg:mr-6 lg:block lg:font-bold">王小明的代辦</p>
+      <a href="./login.html" class="text-sm">登出</a>
+    </header>
+    <form
+      action="index"
+      method="post"
+      class="mb-10 flex rounded-lg bg-white p-1 shadow-index lg:mx-auto lg:mb-[60px] lg:max-w-[500px]"
+    >
+      <input
+        type="text"
+        class="flex-grow py-2 px-3"
+        placeholder="新增待辦事項"
+      />
+      <button
+        class="rounded-10 w-10 shrink-0 rounded-lg bg-gray-100 text-xl leading-10 text-white"
+      >
+        +
+      </button>
+    </form>
+    <p class="mb-4 text-center">目前尚無待辦事項</p>
+    <img src="./images/empty.png" alt="empty" class="mx-auto" />
+  </body>
+</html>
