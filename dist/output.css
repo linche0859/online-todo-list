@@ -670,6 +670,10 @@ input:focus {
   margin-bottom: 0.75rem;
 }
 
+.mb-\[26px\] {
+  margin-bottom: 26px;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -2078,6 +2082,10 @@ input:focus {
 
 .leading-\[29px\] {
   line-height: 29px;
+}
+
+.leading-\[35px\] {
+  line-height: 35px;
 }
 
 .text-white {
