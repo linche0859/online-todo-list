@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@700&family=Noto+Sans+TC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="min-h-screen bg-primary lg:flex lg:items-center lg:justify-center"
+  >
+    <main
+      class="py-12 lg:mx-auto lg:flex lg:w-[796px] lg:items-center lg:justify-between lg:py-0"
+    >
+      <section class="mb-4 lg:mb-0 lg:w-[386px]">
+        <div class="flex items-center justify-center px-[31px] lg:mb-5 lg:px-0">
+          <img src="./images/check.png" alt="check" class="mr-[2px] shrink-0" />
+          <h1 class="font-baloo text-[32px] font-bold leading-10">
+            ONLINE TODO LIST
+          </h1>
+        </div>
+        <img
+          src="./images/auth-cover.png"
+          alt="cover"
+          class="hidden lg:mx-auto lg:block"
+        />
+      </section>
+      <section class="lg:w-[304px]">
+        <h2
+          class="mb-8 text-center text-xl font-bold leading-[29px] lg:mb-6 lg:text-left lg:text-2xl lg:leading-[35px]"
+        >
+          註冊帳號
+        </h2>
+        <form action="login" method="post" class="px-8 text-center lg:px-0">
+          <ul class="mb-3 space-y-4 text-left lg:mb-6">
+            <li>
+              <label for="email" class="mb-1 inline-block text-sm font-bold"
+                >Email</label
+              >
+              <input
+                id="email"
+                type="email"
+                class="block w-full rounded-large bg-white py-3 px-4 font-medium"
+                placeholder="請輸入Email"
+              />
+              <!-- <p class="pt-1 text-sm font-bold text-red-100">此欄位不可為空</p> -->
+            </li>
+            <li>
+              <label for="name" class="mb-1 inline-block text-sm font-bold"
+                >您的暱稱</label
+              >
+              <input
+                id="name"
+                type="text"
+                class="block w-full rounded-large bg-white py-3 px-4 font-medium"
+                placeholder="請輸入暱稱"
+              />
+            </li>
+            <li>
+              <label for="password" class="mb-1 inline-block text-sm font-bold"
+                >密碼</label
+              >
+              <input
+                id="password"
+                type="password"
+                class="block w-full rounded-large bg-white py-3 px-4 font-medium"
+                placeholder="請輸入密碼"
+              />
+            </li>
+            <li>
+              <label for="" class="mb-1 inline-block text-sm font-bold"
+                >再次輸入密碼</label
+              >
+              <input
+                id="confirm-password"
+                type="password"
+                class="block w-full rounded-large bg-white py-3 px-4 font-medium"
+                placeholder="請再次輸入密碼"
+              />
+            </li>
+          </ul>
+          <button
+            class="mb-3 inline-block rounded-large bg-gray-100 py-3 px-12 font-bold text-white"
+          >
+            註冊帳號
+          </button>
+          <br />
+          <a
+            href="./login.html"
+            class="inline-block rounded-large py-3 px-12 font-bold"
+          >
+            登入
+          </a>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
